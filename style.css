@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-color: green;
+  display: inline-block;
+}
+
+nav {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 18%;
+  margin: 10px;
+}
+
+footer {
+  background-color: orange;
+}
+
+.leftlinks {
+  background-color: white;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.rightlinks {
+  background-color: gray;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.logo {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.search {
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+.search-box {
+  margin: 0 auto;
+  display:  flex;
+  text-align: center;
+  width: 550px;
+  height: 30px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.search-box input#search {
+  width: 550px;
+  height: 50px;
+  background: white;
+  border-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.buttons {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+.button {
+  background-color: white;
+}
+
+.input {
+  border: none;
+  margin: 0 auto;
+  padding: 10px;
+  height: 20px;
+  width: 200px;
+}

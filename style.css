@@ -6,27 +6,27 @@
 html {
   width: 100%;
   height: 100%;
-  background-color: blue;
+  background-color: #fff;
   display: flex;
 }
 
 body {
   margin: 0 auto;
   width: 100%;
-  height: auto;
-  background-color: red;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 header {
-  background-color: green;
+  background-color: #fff;
   display: inline-block;
+  margin-top: 0;
 }
 
 nav {
-  background-color: yellow;
+  background-color: #fff;
   width: 100%;
   height: 100%;
   position: relative;
@@ -37,21 +37,100 @@ nav {
 }
 
 footer {
-  background-color: orange;
+  background-color: #fff;
+  z-index: 20;
+  display: inline-block;
+  width: 100%;
+  height: 52px;
+  padding-top: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.toplinks {
+  color: black;
+  font: 13px arial, sans-serif;
+}
+
+#images {
+  padding: 0 15px 0 15px;
+}
+
+#about {
+   padding: 0 0 0 15px;
+ }
+
+#store {
+  padding: 0 0 0 15px;
+}
+
+#advertising {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+#business {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+#howsearchworks {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+#privacy {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+#terms {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+#settings {
+  color: #5f6368;
+  font: 13px arial, sans-serif;
+  padding: 0 0 0 27px;
+}
+
+.buttomnav {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerright {
+  float: right;
+}
+
+.footerleft {
+  float: left;
 }
 
 .leftlinks {
   background-color: white;
   float: left;
-  margin: 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 5px;
 }
 
 .rightlinks {
-  background-color: gray;
+  background-color: #fff;
   float: right;
-  margin: 10px;
-  padding: 10px;
+  margin: 0;
+  padding: 5px;
 }
 
 .logo {
@@ -80,21 +159,44 @@ footer {
 .search-box input#search {
   width: 550px;
   height: 50px;
-  background: white;
   border-radius: 30px;
   padding-bottom: 20px;
+  height:30px;
+  padding-left:25px;
 }
 
 .buttons {
   display: inline-block;
   text-align: center;
   position: relative;
-  padding: 20px;
+  padding: 4px;
 }
 
 .button {
-  background-color: white;
+   border: none;
+   color: #5f6368;
+   border-radius: 5px;
+   font-family: arial,sans-serif;
+   padding: 0 16px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 11px 4px;
+   cursor: pointer;
+   text-align: center;
+   min-width: 54px;
+   height: 36px;
+   background-color: #gray;
 }
+
+.button:hover {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  background-color: #efefef;
+}
+
 
 .input {
   border: none;
